@@ -43,8 +43,7 @@ class _DrawViewerState extends State<DrawViewer1> {
         backgroundColor: Colors.red,
         onRefresh: _refresh,
         child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: ListView(
             children: <Widget>[
               Text(
                 'Group:   ${widget.groupName}    Round     ${widget.currentRound}',
